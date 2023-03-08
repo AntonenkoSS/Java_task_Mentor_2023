@@ -5,13 +5,12 @@ public class Array_3_Task {
     // for a positive integer n calculate the result value,which is equal to the sum of odd number of n,
     // n=1234 ---> result=4   or  n=246 ----> result = 0
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введіть ціле додатнє число: ");
         if (scanner.hasNextInt()) {
             int i = scanner.nextInt();
             if (i>0) {
-                //System.out.println(i);
                 int sum = 0;
                 while(i>0){
                     int x = i%10;
