@@ -1,7 +1,9 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Array_2_Task {
+    public class Array_2_Task {
+        public Array_2_Task() {
+        }
 
         public static void main(String[] args) throws IOException {
             Scanner scanner = new Scanner(System.in);
